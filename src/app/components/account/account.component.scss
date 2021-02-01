@@ -1,0 +1,24 @@
+.two-cols{
+  display: grid;
+  grid-template-columns: max-content max-content;
+}
+.first-col{
+  background-color: #F1F1F1;
+  height: 90vh;
+  margin:0;
+}
+a{
+  color:black;
+  text-decoration: none;
+  font-size: 24px;
+}
+li{
+  padding: 20px;
+}
+li:hover{
+  background-color: #d1d1d1 ;
+}
+li:active{
+  background-color:#c4c3c3 ;
+}
+

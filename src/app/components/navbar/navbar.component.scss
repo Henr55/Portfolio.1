@@ -1,0 +1,60 @@
+
+a{
+  display: inline-block;
+  margin: 10px;
+}
+h3{
+  display: inline-block;
+  margin: 3px;
+  color: #606060;
+}
+
+i{
+  display: inline-block;
+  color: #606060;
+}
+a i:hover{
+  color: red;
+}
+.none{
+  display:none;
+}
+li:hover{
+  background-color: #ece9e9;
+}
+li:active{
+  background-color: #d1d1d1;
+}
+@media screen and (max-width:768px){//ipad
+  #navbar{
+    width: 100px;
+  }
+  #home,#trand,#following{
+  font-size: 14px;
+  }
+  h3{
+    font-size: 14px;
+  }
+  #btnMenu{
+    font-size: 25px;
+    position: relative;
+    right: 15px;
+  }
+}
+@media screen and (max-width:376px){//ipad
+  #navbar{
+    width: 100px;
+  }
+  #home,#trand,#following{
+  font-size: 14px;
+  }
+  h3{
+    font-size: 14px;
+  }
+  #btnMenu{
+    font-size: 25px;
+    position: relative;
+    right: 15px;
+  }
+}
+

@@ -1,0 +1,12 @@
+<div id="conteiner">
+  <div class='four-collum'>
+    <div *ngFor='let v of searchMusic()' id="videos">
+      <video  controls>
+        <source src={{v.link}} type="video/mp4">
+      </video>
+      <h4>{{v.discription}}</h4>
+    </div>
+  </div>
+
+</div>
+

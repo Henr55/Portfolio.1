@@ -1,0 +1,206 @@
+#logo{
+  color: #FF0000;
+  font-size: 25px;
+  position: relative;
+  left: 15px;
+}
+#nav{
+  position: relative;
+  bottom: 13px;
+}
+#btnMenu{
+  border: none;
+  background:none;
+  font-size: 15px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+#btnMenu:focus{
+  outline: none;
+  outline-offset: none;
+}
+#search,#video,#apps,#note,#microphone,#account{
+  color: #606060;
+  cursor: pointer;
+}
+#video,#apps,#note,#account{
+  margin: 10px;
+  font-size: 20px;
+}
+#account{
+  color:#0098A6 ;
+}
+.conteiner{
+  display: flex;
+  justify-content: space-between;
+}
+.first{
+  width: 10em;
+  display: inline-block;
+}
+.second{
+  display: inline-block;
+}
+.third{
+  display: inline-block;
+}
+h3{
+  display: inline-block;
+  position: relative;
+  bottom: 4px;
+  left: 19px;
+}
+input,button{
+font-size: 20px;
+position: relative;
+top: 10px;
+width: 70px;
+cursor: pointer;
+}
+input{
+  width: 400px;
+}
+#search{
+  font-size: 20px;
+}
+
+#microphone{
+  font-size: 18px;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:769px){
+  .conteiner{
+    width: 100%;
+  }
+  .first{
+    display: flex;
+    position: relative;
+  }
+  .second{
+    display: flex;
+    position: relative;
+    left: 190px;
+    top: 5px;
+  }
+  .third{
+    display: flex;
+    position: relative;
+    left: 310px;
+  }
+  input{
+    height: 35px;
+    width: 200px;
+  }
+  button{
+    height: 41px;
+  }
+  #nav{
+    top: 8px;
+    font-size: 20px;
+  }
+  #logo{
+    font-size: 30px;
+    position: relative;
+    top: 12px;
+  }
+  h3{
+    font-size: 25px;
+    position: relative;
+    bottom: 13px;
+  }
+  #microphone{
+    font-size: 30px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+  }
+}
+#video,#apps,#note,#account{
+  margin: 10px;
+  font-size: 20px;
+}
+@media screen and (max-width:376px){
+  input{
+    width: 80px;
+    height: 20px;
+    margin-top: 1px;
+  }
+  button{
+    margin-top: 1px;
+    width: 50px;
+    height: 26px;
+  }
+  #search{
+    font-size: 15px;
+    position: relative;
+    bottom: 2px;
+  }
+  .first{
+    display: flex;
+  }
+  .second{
+    display: flex;
+    position: relative;
+    left: 60px;
+    top: 1px;
+    #microphone{
+      height: 20px;
+      font-size: 15px;
+      position: absolute;
+      left: 135px;
+
+    }
+}
+
+  .third{
+    margin-top: 1px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    left: 100px;
+    top: 5px;
+  }
+  #video,#apps,#note,#account{
+    margin: 5px;
+    font-size: 20px;
+  }
+  #logo{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 15px;
+    position: relative;
+    top: 1px;
+    right: 10px;
+  }
+  #nav{
+    top: 6px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:320px){
+  input{
+    width: 80px;
+    height: 18px;
+    margin-top: 1px;
+  }
+  button{
+    height: 24px;
+  }
+  .third{
+    height: 50px;
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 110px;
+  }
+  #video,#apps,#note,#account{
+    margin: 5px;
+    font-size: 20px;
+  }
+}
