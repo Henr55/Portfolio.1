@@ -1,3 +1,4 @@
+import { SliderComponent } from './components/account/account-body/slider/slider.component';
 import { AdvencedComponent } from './components/account/account-body/advenced/advenced.component';
 import { BillingComponent } from './components/account/account-body/billing/billing.component';
 import { PaybackComponent } from './components/account/account-body/payback/payback.component';
@@ -28,6 +29,7 @@ const appRouts:Routes = [
     {path:"Following",component:FollowingComponent},
     {path:"Account",component:AccountComponent,
     children:[
+      {path:"",component:AccountAccountComponent},
       {path:"account",component:AccountAccountComponent},
       {path:"notification",component:NotificationComponent},
       {path:"payback",component:PaybackComponent},
@@ -57,7 +59,8 @@ const appRouts:Routes = [
     PrivacyComponent,
     ConnactComponent,
     BillingComponent,
-    AdvencedComponent
+    AdvencedComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

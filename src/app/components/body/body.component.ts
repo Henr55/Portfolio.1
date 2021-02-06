@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './body.component.html',
   styleUrls: ['./body.component.scss']
 })
-export class BodyComponent implements OnInit,OnDestroy{
+export class BodyComponent implements OnInit{
   searchSub!: Subscription;
         videos:Video[]=[{
         id:1,
@@ -73,7 +73,5 @@ export class BodyComponent implements OnInit,OnDestroy{
       return this.videos.filter(elem => elem.discription.toUpperCase().includes(this.name.toUpperCase()))
     }
   }
-ngOnDestroy(){
-  this.searchSub.unsubscribe();
-}
+
 }
