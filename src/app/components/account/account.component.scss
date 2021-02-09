@@ -39,7 +39,25 @@ overflow: auto;
   .two-cols{
     display: grid;
     grid-template-columns: max-content 1fr;
-    grid-gap:0;
-    height: 90vh;
+  }
+  a{
+    font-size:18px;
+  }
+  .second-col{
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width:426px){
+  a{
+    font-size:10px;
+  }
+  .second-col{
+    padding-left:40px;
+  }
+}
+
+@media screen and(max-width:378px){
+  .second-col{
+    padding-left:15px;
   }
 }

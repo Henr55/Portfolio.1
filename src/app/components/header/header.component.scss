@@ -35,6 +35,7 @@
   display: flex;
   justify-content: space-between;
   height: 10vh;
+  width: 100%;
 }
 .first{
   width: 10em;
@@ -86,13 +87,10 @@ input{
   .second{
     display: flex;
     position: relative;
-    left: 190px;
     top: 5px;
   }
   .third{
     display: flex;
-    position: relative;
-    left: 300px;
   }
   input{
     height: 35px;
@@ -126,37 +124,47 @@ input{
   margin: 10px;
   font-size: 20px;
 }
-@media screen and (max-width:376px){
+@media screen and (max-width:620px){
   input{
-    width: 80px;
+    width: 100px;
     height: 20px;
     margin-top: 1px;
   }
   button{
-    margin-top: 1px;
-    width: 50px;
+    margin-top: 2px;
+    width: 30px;
     height: 26px;
   }
   #search{
-    font-size: 15px;
-    position: relative;
-    bottom: 2px;
+    font-size: 10px;
   }
   .first{
+    width: max-content;
     display: flex;
   }
   .second{
     display: flex;
     position: relative;
-    left: 45px;
+    left:10px;
     top: 1px;
     #microphone{
       height: 20px;
       font-size: 15px;
-      position: absolute;
-      left: 135px;
+      position: relative;
+      left: -8px;
 
     }
+}
+button i{
+  margin:auto;
+  position: relative;
+  top:-2px
+}
+.xz{
+  position:relative;
+  top:11px;
+  margin:auto;
+  padding:0;
 }
 
   .third{
@@ -164,21 +172,106 @@ input{
     height: 50px;
     display: flex;
     position: relative;
-    left: 85px;
-    top: 5px;
+    left: 0px;
+    top: 10px;
   }
   #video,#apps,#note,#account{
     margin: 5px;
-    font-size: 20px;
+    font-size: 15px;
   }
   #logo{
-    font-size: 25px;
+    font-size: 20px;
+    position:relative;
+    left: 2px;
+    top:17px
+  }
+  a{
+    padding:0
   }
   h3{
     font-size: 15px;
     position: relative;
+    top: 3px;
+    left:4px;
+  }
+  #nav{
+    top: 6px;
+    font-size: 15px;
+  }
+}
+
+
+
+@media screen and (max-width:376px){
+  input{
+    width: 70px;
+    height: 20px;
+    margin-top: 1px;
+  }
+  button{
+    margin-top: 2px;
+    width: 30px;
+    height: 26px;
+  }
+  #search{
+    font-size: 10px;
+    bottom: 2px;
+  }
+  .first{
+    width: max-content;
+    display: flex;
+  }
+  .second{
+    display: flex;
+    position: relative;
+    left:10px;
     top: 1px;
-    right: 10px;
+    #microphone{
+      height: 20px;
+      font-size: 15px;
+      position: relative;
+      left: -8px;
+
+    }
+}
+button i{
+  margin:auto;
+  position: relative;
+  top:-2px
+}
+.xz{
+  position:relative;
+  top:11px;
+  margin:auto;
+  padding:0;
+}
+
+  .third{
+    margin-top: 1px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 10px;
+  }
+  #video,#apps,#note,#account{
+    margin: 5px;
+    font-size: 15px;
+  }
+  #logo{
+    font-size: 20px;
+    position:relative;
+    left: 2px;
+    top:17px
+  }
+  a{
+    padding:0
+  }
+  h3{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+    left:4px;
   }
   #nav{
     top: 6px;
@@ -187,22 +280,38 @@ input{
 }
 @media screen and (max-width:320px){
   input{
-    width: 80px;
+    width: 50px;
     height: 18px;
     margin-top: 1px;
+    font-size: 10px;
   }
   button{
     height: 24px;
+  }
+  .second{
+    position: relative;
+    top:6px;
   }
   .third{
     height: 50px;
     display: flex;
     position: relative;
-    top: 5px;
-    left: 100px;
+    top: 17px;
+    font-size: 10px;
   }
   #video,#apps,#note,#account{
     margin: 5px;
-    font-size: 20px;
+    font-size: 15px;
+  }
+  button i{
+    margin:auto;
+    position: relative;
+    top:-4px
+  }
+  .xz{
+    position:relative;
+    top:11px;
+    margin:auto;
+    padding:0;
   }
 }

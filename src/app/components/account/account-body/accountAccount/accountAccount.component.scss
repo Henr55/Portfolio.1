@@ -58,5 +58,31 @@ p{
   color: #606060;
 }
 @media screen and (max-width:769px){
-  
+  .first i{
+    font-size:80px;
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width:426px){
+  .third{
+    margin-right: 10px;
+  }
+  .first i{
+    font-size:40px;
+    padding-left: 40px;
+  }
+  h1{
+    font-size:12px;
+  }
+  b{
+    font-size: 13px;
+  }
+  p,a{
+    font-size: 10px;
+  }
+  h3{
+    font-size: 13px;
+  }
+
 }
