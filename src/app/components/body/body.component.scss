@@ -34,6 +34,11 @@ video{
     width: 97%;
   }
 }
+@media screen and(max-width:426){
+  .four-collum{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 @media screen and (max-width:376px){
   .four-collum{
     grid-template-columns: repeat(1, 1fr);
@@ -53,3 +58,4 @@ video{
     width: 80%;
   }
 }
+

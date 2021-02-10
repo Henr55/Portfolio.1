@@ -86,3 +86,23 @@ p{
   }
 
 }
+@media screen and (max-width:321px){
+  .first i{
+    padding-left: 30px;
+  }
+  .second i{
+    font-size: 20px;
+  }
+  .second{
+    margin-right: 10px;
+  }
+  h3{
+    font-size: 10px;
+  }
+  .box{
+    grid-gap: 1em;
+  }
+  b{
+    font-size: 7px;
+  }
+}

@@ -55,3 +55,25 @@ p{
     font-size:12px;
   }
 }
+@media screen and (max-width:376px){
+b{
+  font-size: 12px;
+}
+p{
+  font-size: 10px;
+}
+input{
+  width: auto;
+}
+}
+@media screen and (max-width:321px){
+  b{
+    font-size: 12px;
+  }
+  p{
+    font-size: 10px;
+  }
+  input{
+    width: auto;
+  }
+  }

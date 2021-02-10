@@ -69,4 +69,20 @@ input{
   width: 90px;
 }
 }
-
+@media screen and (max-width:376px){
+  .first{
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width:321px){
+  b,h1{
+    font-size: 10px;
+  }
+  .box{
+    grid-gap: 1em;
+  }
+  input{
+    width: 90px;
+    height: 20px;
+  }
+}
