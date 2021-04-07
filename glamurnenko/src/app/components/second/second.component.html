@@ -1,0 +1,165 @@
+<div style="background: white;">
+  <div class="main">
+    <div class="text">
+      <h1>СКОРАЯ СТИЛЬНАЯ ПОМОЩЬ</h1>
+      <h4>ОНЛАЙН-КОНСУЛЬТАЦИЯ СТИЛИСТА В ВАШЕМ МОБИЛЬНОМ ТЕЛЕФОНЕ КОГДА ВАМ НУЖНО:НА<br>
+      ШОППИНГЕБВО ВРЕМЯ РАЗБОРАГАРДЕРОБА,КОГДА ПОДБИРАЕТЕ КОМПЛЕКТ,ПРОСТО КОГДА НУЖЕН<br>
+      СОВЕТ</h4>
+      <div class="badge-overlay">
+        <span class="top-left badge">новинка</span>
+    </div>
+    </div>
+    <div class="img">
+    <img src="../../../assets/img/form-reservation-bigcolor.jpg">
+    </div>
+    <div class="text-second">
+      <p>Описание картинки</p>
+      <h1>КАК ВСЕ ПРОИСХОДИТ</h1>
+      <h5>После оплаты мы подключаем вас в какнал в Telegram с нашим стилистом.</h5>
+      <h5>Подключение происходит в рабочее время: ПН-ПТ с 10 до 19 МСК</h5>
+      <h5>Сразу же вы можете писать свои вопросы.</h5>
+      <h5>Ответы будут в пределах часа в рабочее время: ПН-ПТ с 10 до 19 МСК</h5>
+      <h5>Если вы не получаете ответ за 1 час, мы продлеваем время действия услуги на 24 часа.</h5>
+      <h5>А если нужна помощь в выходной день?</h5>
+      <h5 style="padding-left: 10em;">Напишите об этом как можно раньше, но не менее, чем за 24<br>
+         часа.Получите подтверждение стилиста. Если вы<br>
+        отправляетесь, к примеру, на шопинг в выходной день и вам<br>
+        нужно, чтобы стилист был с вами на связи, такой вариант<br>
+        возможен по предварительной договоренности со<br>
+        стилистом.</h5>
+    </div>
+    </div>
+    <div class="box">
+      <h1>Записывайтесь прямо сейчас</h1>
+      <div class='grid-3-column'>
+        <div>
+          <div class='box-header'>
+            <h3>Пакетб<br>
+               попробовать</h3>
+          </div>
+          <div class='box-body'>
+            <div>
+              <i class="fas fa-check" id="check"></i>
+              <p>5 ваших луков или 5<br>
+                вопросов в пределах<br>
+                24 часов</p>
+            </div>
+            <div>
+              <p>5 вопросов/<br>
+                 комплектов на оценку<br>
+                 <br></p>
+            </div>
+            <div>
+             <p> 499 рублей</p>
+            </div>
+
+          </div>
+          <div class='box-footer'>
+            <button class="button"><a routerLink="/Order">ЗАКАЗАТЬ</a></button>
+          </div>
+        </div>
+        <div>
+          <div class='box-header'>
+            <h3>Пакет<br>
+            1 День</h3>
+          </div>
+          <div class='box-body'>
+            <div>
+              <i class="fas fa-check" id="check"></i>
+              <p>Советы стилиста в<br>
+                 пределах 24 часов
+                <br>
+              <br>
+              </p>
+            </div>
+            <div>
+              <p>до 100 вопросов/<br>
+                 комплектов на оценку<br>
+                 <br></p>
+            </div>
+            <div>
+             <p> 2900 рублей</p>
+            </div>
+          </div>
+          <div class='box-footer'>
+            <button class="button"><a routerLink="/Order">ЗАКАЗАТЬ</a></button>
+          </div>
+        </div>
+        <div>
+          <div class='box-header'>
+            <h3>Пакет<br>
+                1 месяц</h3>
+          </div>
+          <div class='box-body'>
+            <div>
+              <i class="fas fa-check" id="check"></i>
+              <p>Советы стилиста в<br>
+                пределах месяца<br><br></p>
+            </div>
+            <div>
+              <p>Неограниченно<br>
+                 вопросов/комплектов<br>
+                 на оценку</p>
+            </div>
+            <div>
+             <p> 9900 рублей</p>
+            </div>
+          </div>
+          <div class='box-footer'>
+            <button class="button"><a routerLink="/Order">ЗАКАЗАТЬ</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img">
+      <img src="../../../assets/img/2razmera_books_preview_1200_c.png">
+    </div>
+    <h1 id="packet">ПАКЕТЫ УСЛУГ</h1>
+    <div class="container">
+
+      <div *ngFor='let paket of pakets' class="item">
+        <b class="centr">{{paket.header}}</b>
+        <h2 class="centr">{{paket.date}}</h2>
+        <p>Срок:</p>
+        <b>{{paket.time}}</b>
+        <p>Вопросов/комплектов на <br>
+           оценку:</p>
+        <b>{{paket.questions}}</b>
+        <h3 class="old">{{paket.oldPrice}}<i class="fas fa-ruble-sign" id="currency"></i></h3>
+        <h3>{{paket.price}}<i class="fas fa-ruble-sign" id="currency"></i></h3>
+        <button class="btn"><a routerLink="/Order">ЗАКАЗАТЬ</a></button>
+      </div>
+    </div>
+
+<div class="opinion">
+  <h1>КАК ВСЕ ПРОИСХОДИТ</h1>
+  <div id="opinion">
+  <img src="../../../assets/img/first-class-stylish-help-chat-1.jpg" class="img-wraper">
+  <h4>Клиентка просит стилиста<br>
+      помочь выбрать одну из курток<br>
+      милитари</h4>
+  </div>
+  <div id="opinion">
+    <img src="../../../assets/img/first-class-stylish-help-chat-2.jpg" class="img-wraper">
+    <h4>Стилист запрашивает<br>
+        дополнительные фотографии<br>
+        для того,чтобы выбор был<br>
+        100% удачным</h4>
+    </div>
+    <div id="opinion">
+      <img src="../../../assets/img/first-class-stylish-help-chat-3.jpg" class="img-wraper">
+      <h4>Стилист анализирует вещи с<br>
+          учетом уже имеющихся вещей<br>
+          клиентки и помогает сделать<br>
+          правильный выбор</h4>
+      </div>
+      <div id="opinion">
+        <img src="../../../assets/img/first-class-stylish-help-chat-4.jpg" class="img-wraper">
+        <h4>Благодарная клиентка делится<br>
+            впечатлениями от полученной<br>
+            услуги и радостью удачных<br>
+            покупок</h4>
+        </div>
+</div>
+
+</div>

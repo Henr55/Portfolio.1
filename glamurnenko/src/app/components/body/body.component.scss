@@ -1,0 +1,40 @@
+body{
+  margin:0;
+}
+.body{
+  background: black;
+}
+.second{
+margin: 0 10em;
+}
+.third{
+  margin: 0 10em;
+}
+@media screen and (max-width:769px){
+  .body{
+    background: white;
+    width: 100%;
+  }
+  .second{
+    margin: 0;
+  }
+  .third{
+    margin: 0;
+    background: black;
+  }
+
+}
+@media screen and (max-width:426px){
+  .header{
+    width: 100%;
+  }
+  .body{
+    width: 100%;
+  }
+}
+@media screen and (max-width:376px){
+  .body{
+    width: 100%;
+  }
+}
+

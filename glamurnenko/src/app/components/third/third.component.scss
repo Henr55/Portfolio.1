@@ -1,0 +1,38 @@
+a{
+  color: white;
+  text-decoration: none;
+}
+p{
+  color: white;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 13px;
+}
+
+.box a:hover{
+  color: skyblue;
+}
+button{
+  background-color: black;
+  border: 1px solid white;
+  height: 30px;
+}
+button:hover{
+  background-color: white;
+  a{
+  color: black;
+  }
+}
+button:focus{
+  outline: none;
+  outline-offset: none;
+}
+.btn{
+  text-align: center;
+  margin-top: 10px;
+}
+@media screen and (max-width:769px){
+  .btn{
+    padding-top: 5px;
+  }
+}

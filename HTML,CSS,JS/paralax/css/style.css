@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url("https://images.unsplash.com/photo-1545418546-5d55b491ca43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    position: relative; 
+}
+#lol{
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    left: 10%;
+    color: white;
+    z-index: 3;
+}
+.main .my1 ul{
+    display: inline-block;
+    word-spacing: 20px;
+    position: relative;
+    color: white;
+    left: 47%;
+    font-size: 25px;
+    z-index: 3;
+}
+
+li{
+    display: inline-block;
+}
+.main:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.my2{
+    width: 430px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 35%;
+    z-index: 3;
+}
+.my2 ul{
+display: inline-block;
+font-size: 20px;
+position: relative;
+right: 15px;
+bottom: 10px;
+font-size: 23px;
+}
+.my2 p{
+    font-size: 20px;
+}
+.my2 li{
+    box-sizing: border-box;
+    background-color: grey;
+    width: 160px;
+    height: 40px;
+    padding-top: 5px ;
+    font-size: 25px;
+}
+a{
+    color: white;
+}
+.my2 li:hover{
+    transition: all 1s;
+    background-color: green;
+    box-shadow: 0px opx 100px #fff;
+}
+.child,
+.lol{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: white;
+    color: gray;
+}
+.child2{
+    background-image: url("https://images.unsplash.com/flagged/photo-1554176858-794bdd61dd41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    position: relative; 
+}
+.child2:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.a{
+    position: relative;
+    z-index: 3;
+    color: white;
+}
+.my3{
+    height: 200px;
+    width: 400px;
+    background-color: #A12123;
+    top: 50%;
+    left: 60%;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+.my3 ul{
+    display: inline-block;
+    word-spacing: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.my3 li{
+    display: inline-block;
+}
+i{
+    color: white;
+    font-size: 30px;
+    transition: all 1s;   
+}
+.my3:hover ul{
+    transition: all 1s;
+    transform: translateX(0%);
+}
+.my3 ul{
+    transition: all 1s;
+    transform: translateX(-200%);
+    transition-timing-function: cubic-bezier(.29,.10,.48,1.39);
+}
+#z:hover{
+    transition: all 1s;
+    transform: rotate(360deg);
+    color:#1877F2;
+}
+#x:hover{
+    transition: all 1s;
+    transform: rotate(360deg);
+    color:#FF0000 ;
+}
+#c:hover{
+    transition: all 1s;
+    transform: rotate(360deg);
+    color: #DB2F79;
+}
+#v:hover{
+    transition: all 1s;
+    transform: rotate(360deg);
+    color: #5D7FA6;
+}
+#b:hover{
+    transition: all 1s;
+    transform: rotate(360deg);
+    color: #3FA6DB;
+}
+.my3 p{
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.conteiner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-attachment: fixed;
+}
+.conteiner img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.conteiner img:nth-child(2){
+    mix-blend-mode: multiply;
+}
+
